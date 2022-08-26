@@ -1,0 +1,26 @@
+.hero{
+  &-title {
+    font-weight: 700;
+    color: $mauve;
+    font-size: 40px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -1.42857px;
+
+    @media (min-width: map-get($width-map, "sm")) {
+      font-size: 3.5rem;
+      line-height: 48px;
+      letter-spacing: -2px;
+      text-align: left;
+    }
+  }
+  &-paragraph{
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.633333px;
+    color: #927B91;
+    margin-top: 17px;
+  }
+}

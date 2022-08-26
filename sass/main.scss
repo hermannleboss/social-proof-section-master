@@ -12,8 +12,20 @@
 
 @import "pages/home";
 
-@import "https://fonts.googleapis.com/css?family=Your+Font:400,700";
+@import "https://fonts.googleapis.com/css?family=League+Spartan:500,700";
 *{
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'League Spartan', serif;
+  font-style: normal;
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

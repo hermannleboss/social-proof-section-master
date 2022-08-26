@@ -1,0 +1,6 @@
+body {
+  padding-top: 82px;
+  @media (min-width: map-get($width-map, "sm")) {
+    padding-top: 118px;
+  }
+}
