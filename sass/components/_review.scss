@@ -1,0 +1,28 @@
+
+.review {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 39px;
+  margin-bottom: 49px;
+  & > div {
+    height: 78px;
+    padding: 16px 55px;
+    background-color: $light-mauve;
+    border-radius: 8px;
+    color: $mauve;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 16px;
+  }
+  &-stars{
+    display: flex;
+    justify-content: center;
+    gap: 8.45px;
+    margin-bottom: 18.23px;
+    &>img{
+      height: 15.772866249084473px;
+      width: 16.553192138671875px;
+    }
+  }
+}
