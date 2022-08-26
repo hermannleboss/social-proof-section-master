@@ -3,20 +3,24 @@
   color: white;
   border-radius: 8px;
   padding: 40px 32px 35px 32px;
+  min-width: 327px;
+  max-width: 350px;;
 
   &-header {
     display: flex;
     gap: 23px;
     align-items: center;
     margin-bottom: 23px;
+
     &-content {
-      >p:first-child {
+      > p:first-child {
         font-weight: 700;
         font-size: 17px;
         line-height: 16px;
         margin-bottom: 4px;
       }
-      >p:last-child {
+
+      > p:last-child {
         font-weight: 400;
         font-size: 17px;
         line-height: 16px;

@@ -5,9 +5,29 @@ body {
   }
 }
 
-.comments-section{
+.comments-section {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   gap: 16px;
   margin-bottom: 99px;
+
+  @media (min-width: map-get($width-map, "sm")) {
+    flex-direction: row;
+    justify-content: space-between;
+    > div {
+      margin-top: 15px;
+      margin-bottom: 15px;
+
+      &:first-child {
+        margin-top: 0;
+        margin-bottom: 30px;
+      }
+
+      &:last-child {
+        margin-top: 30px;
+        margin-bottom: 0;
+      }
+    }
+  }
 }

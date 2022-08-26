@@ -5,6 +5,7 @@
   gap: 16px;
   margin-top: 39px;
   margin-bottom: 49px;
+
   & > div {
     height: 78px;
     padding: 16px 55px;
@@ -14,13 +15,35 @@
     font-weight: 700;
     font-size: 17px;
     line-height: 16px;
+    @media (min-width: map-get($width-map, "sm")) {
+      display: flex;
+      align-items: center;
+      gap: 32.45px;
+      padding-left: 32px;
+      margin-right: 47.5px;
+      margin-left: 47.5px;
+      padding-right: 47px;
+      &:first-child{
+        margin-right: 95px;
+        margin-left: 0;
+      }
+      &:last-child{
+        margin-right: 0;
+        margin-left: 95px;
+      }
+    }
   }
-  &-stars{
+
+  &-stars {
     display: flex;
     justify-content: center;
     gap: 8.45px;
     margin-bottom: 18.23px;
-    &>img{
+    @media (min-width: map-get($width-map, "sm")) {
+      margin-bottom: 0;
+    }
+
+    & > img {
       height: 15.772866249084473px;
       width: 16.553192138671875px;
     }

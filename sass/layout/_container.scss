@@ -1,4 +1,9 @@
 .container{
   margin-left: 24px;
   margin-right: 24px;
+
+  @media (min-width: map-get($width-map, "sm")) {
+    margin-left: 165px;
+    margin-right: 165px;
+  }
 }
