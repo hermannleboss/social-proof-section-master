@@ -6,6 +6,10 @@
   margin-top: 39px;
   margin-bottom: 49px;
 
+  @media (min-width: map-get($width-map, "sm")) {
+    margin: 0;
+  }
+
   & > div {
     height: 78px;
     padding: 16px 55px;
@@ -16,6 +20,7 @@
     font-size: 17px;
     line-height: 16px;
     @media (min-width: map-get($width-map, "sm")) {
+      height: 56px;
       display: flex;
       align-items: center;
       gap: 32.45px;
@@ -23,11 +28,11 @@
       margin-right: 47.5px;
       margin-left: 47.5px;
       padding-right: 47px;
-      &:first-child{
+      &:first-child {
         margin-right: 95px;
         margin-left: 0;
       }
-      &:last-child{
+      &:last-child {
         margin-right: 0;
         margin-left: 95px;
       }

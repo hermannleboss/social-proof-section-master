@@ -9,6 +9,7 @@
     > div:last-child {
       width: 540px;
     }
+    margin-bottom: 71px;
   }
 
 
@@ -35,7 +36,7 @@
     text-align: center;
     letter-spacing: -0.633333px;
     color: #927B91;
-    margin-top: 17px;
+    margin-top: 25px;
     @media (min-width: map-get($width-map, "sm")) {
       text-align: left;
     }
