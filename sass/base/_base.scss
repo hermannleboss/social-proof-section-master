@@ -14,7 +14,7 @@ body {
 
   @media (min-width: map-get($width-map, "sm")) {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     > div {
       margin-top: 15px;
       margin-bottom: 15px;
