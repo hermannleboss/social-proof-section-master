@@ -3,6 +3,9 @@ body {
   @media (min-width: map-get($width-map, "sm")) {
     padding-top: 118px;
   }
+  background: url("public/images/bg-pattern-top-desktop.svg"), url("public/images/bg-pattern-bottom-desktop.svg");
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
 }
 
 .comments-section {
